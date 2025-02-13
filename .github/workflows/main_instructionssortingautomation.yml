@@ -2,7 +2,7 @@
 # More GitHub Actions for Azure: https://github.com/Azure/actions
 # More info on Python, GitHub Actions, and Azure App Service: https://aka.ms/python-webapps-actions
 
-name: Build and deploy Python app to Azure Web App - instructionssortingautomation
+name: Build and deploy Python app to Azure Web App - InstructionsSortingAutomation
 
 on:
   push:
@@ -66,6 +66,6 @@ jobs:
         uses: azure/webapps-deploy@v3
         id: deploy-to-webapp
         with:
-          app-name: 'instructionssortingautomation'
+          app-name: 'InstructionsSortingAutomation'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_4A7687148F664AD298D754D6391A4A77 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_BBE532891685433D991E3E1BDBCFDA40 }}
