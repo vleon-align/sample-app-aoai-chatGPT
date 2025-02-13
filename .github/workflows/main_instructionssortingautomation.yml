@@ -68,4 +68,4 @@ jobs:
         with:
           app-name: 'InstructionsSortingAutomation'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_BBE532891685433D991E3E1BDBCFDA40 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_ACD1D33A52334F2C99AC2D750C06FBA6 }}
